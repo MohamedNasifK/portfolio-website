@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Nasif | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f8fafc;color:#0f172a;scroll-behavior:smooth}
+header{text-align:center;padding:60px 20px}
+
+/* PROFILE IMAGE FIX */
+.profile-pic{
+  width:150px;
+  height:140px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:top; /* shows only upper part (face + shirt top) */
+  border:3px solid whitesmoke;
+  margin-bottom:15px
+}
+
+h1{font-size:3rem;color:#0f172a}
+p.subtitle{margin-top:10px;color:#475569}
+
+nav{position:sticky;top:0;background:white;display:flex;justify-content:center;gap:30px;padding:15px;border-bottom:1px solid #e2e8f0;z-index:1000}
+nav a{color:#4d7c0f;text-decoration:none;position:relative;font-weight:500}
+nav a::after{content:"";position:absolute;width:0;height:2px;background:#4d7c0f;left:0;bottom:-5px;transition:.3s}
+nav a:hover::after{width:100%}
+
+section{max-width:1000px;margin:auto;padding:25px 20px}
+
+.card{background:white;padding:25px;border-radius:15px;margin-bottom:25px;transition:.3s;border:1px solid #e2e8f0}
+.card:hover{transform:translateY(-8px);box-shadow:0 10px 25px rgba(0,0,0,.08)}
+
+h2{margin-bottom:15px;color:#4d7c0f}
+
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.project-box{background:#f1f5f9;padding:20px;border-radius:10px;border:1px solid #e2e8f0;transition:.3s}
+.project-box {
+    text-align: center;
+}
+
+.project-box button {
+    margin-top: 15px;
+}
+.project-box:hover{background:#e2e8f0}
+
+button{background:white;border:2px solid #4d7c0f;padding:12px 20px;border-radius:25px;color:#4d7c0f;cursor:pointer;transition:.3s}
+button:hover{transform:scale(1.05)}
+
+footer{text-align:center;padding:20px;color:#64748b}
+
+.hidden{opacity:0;transform:translateY(30px);transition:all .6s ease}
+.show{opacity:1;transform:translateY(0)}
+
+section{
+    scroll-margin-top:70px;
+}
+
+.edu-item{margin-bottom:15px}
+.edu-item span{display:block;color:#64748b;font-size:.95rem}
+
+.social-links a{display:inline-block;margin:5px;color:#4d7c0f;text-decoration:none}
+
+</style>
+</head>
+<body>
+<header>
+<img src="profile.JPEG" alt="Profile" class="profile-pic">
+<h1>Mohamed Nasif</h1>
+<p class="subtitle">Python Developer | Backend Developer | Software Developer</p>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/mohamednasif12" target="_blank">LinkedIn Profile</a><br>
+<a href="https://github.com/MohamedNasifK" target="_blank">GitHub Profile</a>
+</div>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#experience">Experience</a>
+<a href="#education">Education</a>
+<a href="#resume">Resume</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="hidden">
+<div class="card">
+<h2>About Me</h2>
+<p>Hello! I'm Mohamed Nasif, a passionate and detail-oriented developer with a strong interest in building real-world applications. I enjoy working with Python and Django for backend development, along with modern front-end technologies to create clean and user-friendly interfaces.</p>
+<br>
+<p>I have hands-on experience developing projects like a child immunizatoin management system, where I focused on solving practical problems such as appointment booking and record management.</p>
+<br>
+<p>Currently, I’m actively preparing for software development roles and focusing on strengthening my technical and problem-solving abilities.</p>
+</div>
+</section>
+
+<section id="skills" class="hidden">
+<div class="card">
+<h2>Skills</h2>
+<ul>
+<li>Python & Django</li>
+<li>HTML, CSS, JavaScript</li>
+<li>MySQL</li>
+<li>Responsive Web Design</li>
+<li>Problem Solving & Logical Thinking</li>
+</ul>
+</div>
+</section>
+
+
+<section id="projects" class="hidden">
+<h2>Projects</h2>
+<div class="projects">
+<div class="project-box">
+<h3>Child Immunization Management System</h3>
+<p>Developed a web application using Python, Django and MySQL to manage vaccination appointments and records.</p>
+<a href="https://github.com/MohamedNasifK/vaccination-project" target="_blank">
+  <button>View Code</button>
+</a>
+</div>
+<div class="project-box">
+<h3>Portfolio Website</h3>
+<p>Designed and developed a responsive personal portfolio with modern UI.</p>
+</div>
+<div class="project-box">
+<h3>Mini Python Projects</h3>
+<p>Built applications to strengthen core programming and logic building.</p>
+</div>
+</div>
+</section>
+
+<section id="experience" class="hidden">
+<div class="card">
+<h2>Work Experience</h2>
+<p><strong>HCL Technologies</strong></p>
+<p>Role: Data and Reporting Analyst</p>
+<br>
+<p>At HCL Technologies, I worked as a Data and Reporting Analyst where I was responsible for handling and validating large volumes of data using Salesforce CRM. My role involved performing structured data validation, verification, and consistency checks to ensure accuracy and reliability.</p>
+<br>
+<p>I applied rule-based decision logic to evaluate cases by identifying malfunction classifications and determining reportability assessments. Additionally, I organized and structured complaint data into well-defined categories, which improved analysis efficiency and processing workflows.</p>
+<br>
+<p>I also collaborated within a multi-level processing system, ensuring seamless communication and smooth transition of validated data across teams, contributing to overall process efficiency and quality.</p>
+</div>
+</section>
+
+<section id="education" class="hidden">
+<div class="card">
+<h2>Education</h2>
+<div class="edu-item">
+<strong>Master of Computer Applications (MCA)</strong>
+<span>Dr. G. R. Damodaran College of Science</span>
+</div>
+<div class="edu-item">
+<strong>BSc Computer Science</strong>
+<span>Sri Krishna Adithya College of Arts and Science</span>
+</div>
+<div class="edu-item">
+<strong>HSC</strong>
+<span>St. Peter's International School</span>
+</div>
+</div>
+</section>
+
+<section id="resume" class="hidden">
+<div class="card">
+<h2>Resume</h2>
+<a href="Mohamed Nasif K - Profile.pdf" download>
+<button>Download Resume</button>
+</a>
+</div>
+</section>
+
+<section id="contact" class="hidden">
+<div class="card">
+<h2>Contact</h2>
+<p>Email: nasif12k@gmail.com</p>
+<p>Phone: +91-7339119007</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Mohamed Nasif</p>
+</footer>
+
+<script>
+function downloadResume(){alert("Add your resume link here")}
+const elements=document.querySelectorAll('.hidden');
+window.addEventListener('scroll',()=>{elements.forEach(el=>{const pos=el.getBoundingClientRect().top;const h=window.innerHeight;if(pos<h-100){el.classList.add('show')}})})
+</script>
+
+</body>
+</html>
