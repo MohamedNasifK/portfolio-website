@@ -1,2 +1,25 @@
-# portfolio-website
-A modern and responsive personal portfolio website showcasing my projects, skills and passion for software development.
+# 🌐 Personal Portfolio Website
+
+## 📌 About
+This is my personal portfolio website designed to showcase my skills, projects, and professional experience as a developer.
+
+## 🚀 Features
+- Responsive design
+- Smooth navigation
+- Project showcase with GitHub links
+- Resume download option
+- Clean and modern UI
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## 📷 Preview
+(Add screenshot here later)
+
+## 🔗 Live Demo
+(Will add after deployment)
+
+## 👨‍💻 Author
+Mohamed Nasif
