@@ -1,7 +1,7 @@
 # 🌐 Personal Portfolio Website
 
 ## 📌 About
-This is my personal portfolio website designed to showcase my skills, projects, and professional experience as a developer.
+This is my personal portfolio website designed to showcase my skills, projects and professional experience as a developer.
 
 ## 🚀 Features
 - Responsive design
@@ -14,12 +14,6 @@ This is my personal portfolio website designed to showcase my skills, projects, 
 - HTML
 - CSS
 - JavaScript
-
-## 📷 Preview
-(Add screenshot here later)
-
-## 🔗 Live Demo
-(Will add after deployment)
 
 ## 👨‍💻 Author
 Mohamed Nasif
